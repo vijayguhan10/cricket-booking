@@ -184,7 +184,7 @@ const WhyUs = () => {
           </h2>
           <div className="h-1 w-24 sm:w-40 bg-yellow-400 mx-auto mb-4 sm:mb-6"></div>
           <h3 className="text-lg sm:text-2xl md:text-4xl font-bold text-white mb-6 sm:mb-8 px-4">
-            Why Is Jdbook Book The Best Option For Online Betting ID?
+            Why Is JDbook The Best Option For Online Betting ID?
           </h3>
         </motion.div>
 
@@ -239,11 +239,8 @@ const WhyUs = () => {
               <p className="text-sm sm:text-xl md:text-2xl text-gray-300 mb-4 sm:mb-6 max-w-4xl mx-auto">
                 Whether you're into cricket betting, IPL betting, or online
                 casino gaming,
-                <span className="text-yellow-400 font-bold">
-                  {" "}
-                  Jdbook Book
-                </span>{" "}
-                is your perfect choice for a seamless experience.
+                <span className="text-yellow-400 font-bold"> JDbook</span> is
+                your perfect choice for a seamless experience.
               </p>
               <motion.a
                 href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
@@ -377,8 +374,8 @@ const WhyUs = () => {
 
           <div className="max-w-5xl mx-auto mb-8 sm:mb-12">
             <p className="text-gray-300 text-xs sm:text-base md:text-lg leading-relaxed text-center mb-4 sm:mb-6 px-4">
-              At Jdbook Book, we understand that secure and hassle-free
-              financial transactions are the backbone of a great online betting
+              At JDbook, we understand that secure and hassle-free financial
+              transactions are the backbone of a great online betting
               experience. That's why we've built a platform designed to make
               deposits and withdrawals as smooth and reliable as possible.
             </p>

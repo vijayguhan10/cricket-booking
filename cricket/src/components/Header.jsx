@@ -38,7 +38,7 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
-    { name: "Jdbook Book ID", path: "/onlinebooking" },
+    { name: "JDbook ID", path: "/onlinebooking" },
     { name: "Contact Us", path: "/contact" },
     { name: "Privacy Policy", path: "/privacy" },
     { name: "Terms & Conditions", path: "/terms" },
@@ -106,7 +106,7 @@ const Navigation = () => {
                 <FaCrown className="text-yellow-400 text-3xl lg:text-4xl drop-shadow-lg" />
               </motion.div>
               <div>
-               <img src="https://ss.manage63.com/bmk-wl/wl/jd222/img/logo.svg"/>
+                <img src="https://ss.manage63.com/bmk-wl/wl/jd222/img/logo.svg" />
                 <p className="text-[10px] lg:text-xs text-green-500 font-semibold">
                   Premier Betting Destination
                 </p>

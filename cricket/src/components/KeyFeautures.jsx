@@ -79,7 +79,7 @@ const KeyFeatures = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-6xl font-extrabold text-white mb-6">
-            Why Jdbook Book Is Every{" "}
+            Why JDbook Is Every{" "}
             <span className="text-yellow-400">Bettor's First Choice!</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">

@@ -66,7 +66,7 @@ const CommonID = ({ data }) => {
                 {data.hero.mainTitle.split("via")[0]}
               </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600">
-                via Jdbook Book
+                via JDbook
               </span>
             </h1>
 
@@ -165,7 +165,7 @@ const CommonID = ({ data }) => {
         </div>
       </section>
 
-      {/* Why Choose Jdbook Book */}
+      {/* Why Choose JDbook */}
       <section className="relative py-16 sm:py-20 md:py-24 bg-black">
         <div className="absolute inset-0">
           <div className="absolute top-20 right-20 w-96 h-96 bg-yellow-400/5 rounded-full blur-3xl"></div>
@@ -472,7 +472,7 @@ const CommonID = ({ data }) => {
             <FaMobileAlt className="text-5xl sm:text-6xl md:text-7xl text-green-500 mx-auto mb-6" />
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4 sm:mb-6">
               {data.mobileApp.title.split("with")[0]}
-              <span className="text-yellow-400">with the Jdbook Book App</span>
+              <span className="text-yellow-400">with the JDbook App</span>
             </h2>
             <div className="h-1 w-24 sm:w-32 bg-green-500 mx-auto mb-6 sm:mb-8"></div>
             <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl mx-auto">
@@ -503,7 +503,7 @@ const CommonID = ({ data }) => {
           {/* Why Choose List */}
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl sm:text-3xl font-bold text-white text-center mb-8 sm:mb-12">
-              Why Choose <span className="text-green-500">Jdbook Book</span>?
+              Why Choose <span className="text-green-500">JDbook</span>?
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               {data.mobileApp.whyChoose.map((reason, index) => (

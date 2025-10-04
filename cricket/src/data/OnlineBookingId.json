@@ -1,9 +1,9 @@
 {
   "hero": {
-    "mainTitle": "Online Betting ID via Jdbook Book",
+    "mainTitle": "Online Betting ID via JDbook",
     "subtitle": "India's Trusted Gateway to Live Sports & Casino Wagers",
     "tagline": "Get Your Online Betting ID in Minutes – Fast, Secure & Trusted",
-    "description": "Ready to dive into the world of online sports betting? Whether you're passionate about cricket betting, love the thrill of IPL wagering, or enjoy classic Indian casino games like Teen Patti and Andar Bahar, you can now create your Online Betting ID instantly with Jdbook Book – India's trusted name in online betting.",
+    "description": "Ready to dive into the world of online sports betting? Whether you're passionate about cricket betting, love the thrill of IPL wagering, or enjoy classic Indian casino games like Teen Patti and Andar Bahar, you can now create your Online Betting ID instantly with JDbook – India's trusted name in online betting.",
     "cta": {
       "primary": "Get Online ID",
       "secondary": "Download App"
@@ -21,7 +21,7 @@
     ]
   },
   "whyChooseJDbook": {
-    "title": "Why Choose Jdbook Book for Your Online Betting ID?",
+    "title": "Why Choose JDbook for Your Online Betting ID?",
     "reasons": [
       {
         "title": "Instant Account Creation",
@@ -44,7 +44,7 @@
         "description": "Bet on cricket, kabaddi, football & more"
       }
     ],
-    "closingText": "Whether you're a seasoned bettor or just starting out, Jdbook Book ensures a smooth, reliable experience tailored for Indian players."
+    "closingText": "Whether you're a seasoned bettor or just starting out, JDbook ensures a smooth, reliable experience tailored for Indian players."
   },
   "cricketBetting": {
     "title": "Bet on Cricket Like a Pro",
@@ -54,7 +54,7 @@
       "Use live odds, stats, and expert insights through our partnered online cricket apps",
       "Explore multiple markets: match winner, toss, overs, player runs, and more"
     ],
-    "closingText": "Looking for the best online cricket betting experience? Jdbook Book has you covered.",
+    "closingText": "Looking for the best online cricket betting experience? JDbook has you covered.",
     "formats": {
       "ipl": {
         "title": "IPL Betting: Experience the Action Ball by Ball",
@@ -141,7 +141,7 @@
       "Withdraw your winnings directly to your UPI-linked bank account"
     ],
     "detailedSteps": {
-      "title": "Simple Steps to Register Your Account on Jdbook Book",
+      "title": "Simple Steps to Register Your Account on JDbook",
       "steps": [
         {
           "number": "01",
@@ -177,12 +177,12 @@
     }
   },
   "mobileApp": {
-    "title": "Bet Anytime, Anywhere with the Jdbook Book App",
+    "title": "Bet Anytime, Anywhere with the JDbook App",
     "subtitle": "Your Trusted Online Betting ID Platform in India",
     "features": [
       {
         "title": "Fully Optimized for Indian Mobile Networks (3G/4G/5G)",
-        "description": "No matter where you are in India — whether you're using 3G in rural areas or high-speed 5G in metro cities — the Jdbook Book App is designed to deliver fast loading times and real-time updates. You'll never miss a bet due to slow network issues."
+        "description": "No matter where you are in India — whether you're using 3G in rural areas or high-speed 5G in metro cities — the JDbook App is designed to deliver fast loading times and real-time updates. You'll never miss a bet due to slow network issues."
       },
       {
         "title": "Real-Time Match Alerts & Odds Notifications",
@@ -248,20 +248,20 @@
     ]
   },
   "platformBenefits": {
-    "title": "Why Jdbook Book is the Best Platform to Get Your Online Betting ID in India",
-    "description": "If you're looking for a fast, secure, and hassle-free way to start online betting in India, Jdbook Book stands out as the top choice for both beginners and seasoned players.",
+    "title": "Why JDbook is the Best Platform to Get Your Online Betting ID in India",
+    "description": "If you're looking for a fast, secure, and hassle-free way to start online betting in India, JDbook stands out as the top choice for both beginners and seasoned players.",
     "benefits": [
       {
         "title": "Instant Online Betting ID Registration",
-        "description": "Skip the delays! With Jdbook Book, you can create your online betting ID in less than 2 minutes using just your mobile number. No complex forms. Just an OTP, and you're ready to play."
+        "description": "Skip the delays! With JDbook, you can create your online betting ID in less than 2 minutes using just your mobile number. No complex forms. Just an OTP, and you're ready to play."
       },
       {
         "title": "No KYC or Documentation Required",
-        "description": "Unlike many other platforms, Jdbook Book respects your time and privacy. Start betting without uploading any documents or waiting for approval. It's a truly no-KYC online cricket app for instant access."
+        "description": "Unlike many other platforms, JDbook respects your time and privacy. Start betting without uploading any documents or waiting for approval. It's a truly no-KYC online cricket app for instant access."
       },
       {
         "title": "Highly Secure & Trusted Betting Platform",
-        "description": "Your safety is our priority. Jdbook Book uses SSL encryption and operates through licensed, verified systems to ensure a safe betting environment. Whether you're betting on sports or using the online casino, your data and money are always protected."
+        "description": "Your safety is our priority. JDbook uses SSL encryption and operates through licensed, verified systems to ensure a safe betting environment. Whether you're betting on sports or using the online casino, your data and money are always protected."
       },
       {
         "title": "All-in-One Betting Access: Cricket, Football, Casino & More",
@@ -277,7 +277,7 @@
       },
       {
         "title": "Optimized for Mobile – Play Anytime, Anywhere",
-        "description": "Jdbook Book is a fully responsive online cricket app, compatible with all Android and iOS devices. Bet live, view match odds, and enjoy seamless gameplay right from your smartphone."
+        "description": "JDbook is a fully responsive online cricket app, compatible with all Android and iOS devices. Bet live, view match odds, and enjoy seamless gameplay right from your smartphone."
       }
     ],
     "whyChoose": [
@@ -288,11 +288,11 @@
     ]
   },
   "gettingStarted": {
-    "title": "Start Your Betting Journey with Jdbook Book",
+    "title": "Start Your Betting Journey with JDbook",
     "subtitle": "Get Your Online Betting ID Today!",
-    "description": "Looking to dive into the world of online betting in India? Whether you're a cricket fanatic, a Teen Patti lover, or just getting started with sports betting, Jdbook Book is your ultimate destination.",
+    "description": "Looking to dive into the world of online betting in India? Whether you're a cricket fanatic, a Teen Patti lover, or just getting started with sports betting, JDbook is your ultimate destination.",
     "steps": [
-      "Sign up with Jdbook Book in minutes",
+      "Sign up with JDbook in minutes",
       "Verify your account via mobile or WhatsApp",
       "Deposit funds via UPI, Paytm, Google Pay, etc.",
       "Start betting on cricket, football, Teen Patti & more!"
@@ -327,7 +327,7 @@
   },
   "security": {
     "title": "Your Privacy is Our Priority",
-    "description": "Jdbook Book operates with the highest security standards, ensuring your data and funds remain protected. We support responsible gaming and offer tools to help you manage your gameplay safely.",
+    "description": "JDbook operates with the highest security standards, ensuring your data and funds remain protected. We support responsible gaming and offer tools to help you manage your gameplay safely.",
     "features": [
       "SSL Encryption",
       "Licensed & Verified Systems",
@@ -354,7 +354,7 @@
       "action": "register"
     },
     "secondary": {
-      "text": "Download Jdbook Book App",
+      "text": "Download JDbook App",
       "action": "download"
     },
     "support": {

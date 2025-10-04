@@ -19,7 +19,7 @@ const GeneralSteps = () => {
       icon: <FaUserPlus className="text-5xl sm:text-6xl text-yellow-400" />,
       title: "Create an Account",
       description: [
-        "Visit the Jdbook Book website or app",
+        "Visit the JDbook website or app",
         "Sign up by providing your details, including name, email, phone number, and any required verification details",
       ],
     },
@@ -37,7 +37,7 @@ const GeneralSteps = () => {
       icon: <FaSearch className="text-5xl sm:text-6xl text-yellow-400" />,
       title: "Browse Available Markets",
       description: [
-        "Jdbook Book offers various betting markets (e.g., cricket, football, casino, etc.)",
+        "JDbook offers various betting markets (e.g., cricket, football, casino, etc.)",
         "Explore the betting options available in your region",
       ],
     },
@@ -66,13 +66,13 @@ const GeneralSteps = () => {
     {
       name: "Cricbuzz",
       description:
-        "Jdbook Book offers users access to Cricbuzz IDs, providing seamless entry to cricket betting activities on the well-known platform. Stay updated with live match data, expert insights, and favorable betting odds across IPL, T20s, ODIs, and Test matches.",
+        "JDbook offers users access to Cricbuzz IDs, providing seamless entry to cricket betting activities on the well-known platform. Stay updated with live match data, expert insights, and favorable betting odds across IPL, T20s, ODIs, and Test matches.",
       icon: <FaCriticalRole className="text-4xl text-yellow-400" />,
     },
     {
       name: "11xplay",
       description:
-        "With an 11xPlay ID from Jdbook Book, you can access exclusive betting features on cricket, football, and tennis. Enjoy premium options, competitive odds, and special promotions, all designed for a seamless betting experience.",
+        "With an 11xPlay ID from JDbook, you can access exclusive betting features on cricket, football, and tennis. Enjoy premium options, competitive odds, and special promotions, all designed for a seamless betting experience.",
       icon: <FaTrophy className="text-4xl text-yellow-400" />,
     },
     {
@@ -84,31 +84,31 @@ const GeneralSteps = () => {
     {
       name: "Gold365",
       description:
-        "By joining Gold365 through Jdbook Book, users unlock access to premium sports betting features and real-time casino games. Enjoy superior services designed for enhanced betting opportunities with exciting rewards and daily promotions.",
+        "By joining Gold365 through JDbook, users unlock access to premium sports betting features and real-time casino games. Enjoy superior services designed for enhanced betting opportunities with exciting rewards and daily promotions.",
       icon: <FaTrophy className="text-4xl text-yellow-400" />,
     },
     {
       name: "Laser247",
       description:
-        "Jdbook Book offers users exclusive access to the renowned betting platform, Laser247. Explore a wide range of betting options, from cricket matches to casino games, while enjoying enticing bonus offers.",
+        "JDbook offers users exclusive access to the renowned betting platform, Laser247. Explore a wide range of betting options, from cricket matches to casino games, while enjoying enticing bonus offers.",
       icon: <FaDice className="text-4xl text-yellow-400" />,
     },
     {
       name: "IPL Betting ID",
       description:
-        "Cricket enthusiasts looking to bet on IPL 2025 matches can easily obtain an exclusive IPL Betting ID through Jdbook Book. This platform offers top-tier betting odds, live streams of every IPL game, and expert betting tips.",
+        "Cricket enthusiasts looking to bet on IPL 2025 matches can easily obtain an exclusive IPL Betting ID through JDbook. This platform offers top-tier betting odds, live streams of every IPL game, and expert betting tips.",
       icon: <FaCriticalRole className="text-4xl text-yellow-400" />,
     },
     {
       name: "Online Cricket ID",
       description:
-        "By getting an Online Cricket ID from Jdbook Book, you can place bets on a wide variety of cricket tournaments, including the IPL, BBL, PSL, and the T20 World Cup.",
+        "By getting an Online Cricket ID from JDbook, you can place bets on a wide variety of cricket tournaments, including the IPL, BBL, PSL, and the T20 World Cup.",
       icon: <FaCriticalRole className="text-4xl text-yellow-400" />,
     },
     {
       name: "Online Betting ID",
       description:
-        "Jdbook Book offers a hassle-free and secure way for customers to engage in online betting through its Online Betting ID service. Access betting on popular sports like cricket, football, kabaddi, and many others.",
+        "JDbook offers a hassle-free and secure way for customers to engage in online betting through its Online Betting ID service. Access betting on popular sports like cricket, football, kabaddi, and many others.",
       icon: <FaShieldAlt className="text-4xl text-yellow-400" />,
     },
   ];
@@ -132,7 +132,7 @@ const GeneralSteps = () => {
         >
           <h2 className="text-5xl sm:text-7xl font-extrabold text-white mb-6">
             How to Start Betting at{" "}
-            <span className="text-yellow-400">Jdbook Book?</span>
+            <span className="text-yellow-400">JDbook?</span>
           </h2>
           <div className="h-1 w-40 bg-yellow-400 mx-auto mb-6"></div>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
@@ -260,7 +260,7 @@ const GeneralSteps = () => {
           </div>
         </motion.div>
 
-        {/* Jdbook Book ID Section */}
+        {/* JDbook ID Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -269,7 +269,7 @@ const GeneralSteps = () => {
           className="text-center mb-16 sm:mb-24"
         >
           <h2 className="text-5xl sm:text-7xl font-extrabold text-white mb-6">
-            Jdbook Book ID
+            JDbook ID
           </h2>
           <div className="h-1 w-40 bg-yellow-400 mx-auto mb-6"></div>
           <p className="text-2xl sm:text-3xl text-yellow-400 mb-8">

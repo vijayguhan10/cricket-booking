@@ -38,7 +38,7 @@ const About = () => {
       icon: <FaSignInAlt className="text-5xl sm:text-6xl text-yellow-400" />,
       title: "Log In to Your Account",
       description:
-        "After registering, use your new login credentials (ID and password) to access your Jdbook Book account.",
+        "After registering, use your new login credentials (ID and password) to access your JDbook account.",
       stepNumber: "04",
     },
     {
@@ -100,9 +100,9 @@ const About = () => {
           className="text-center mb-16"
         >
           <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            At Jdbook Book, we prioritize a smooth and user-friendly
-            registration experience. Just follow these straightforward steps to
-            get started on your exciting betting journey:
+            At JDbook, we prioritize a smooth and user-friendly registration
+            experience. Just follow these straightforward steps to get started
+            on your exciting betting journey:
           </p>
         </motion.div>
 
