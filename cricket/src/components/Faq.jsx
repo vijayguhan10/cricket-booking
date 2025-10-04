@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaPlus, FaMinus, FaQuestionCircle, FaShieldAlt } from "react-icons/fa";
+import Footer from "./Footer";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -260,23 +261,30 @@ const Faq = () => {
             Still have questions? Our support team is here to help!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-            <motion.button
+            <motion.a
+              href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-yellow-400 text-black px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
+              className="inline-block bg-yellow-400 text-black px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
             >
               Contact Support
-            </motion.button>
-            <motion.button
+            </motion.a>
+            <motion.a
+              href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-transparent border-2 border-yellow-400 text-yellow-400 px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold hover:bg-yellow-400 hover:text-black transition-all duration-300"
+              className="inline-block bg-transparent border-2 border-yellow-400 text-yellow-400 px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >
               Live Chat
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>
+      <Footer />
     </div>
   );
 };

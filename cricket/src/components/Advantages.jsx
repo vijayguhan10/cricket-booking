@@ -210,20 +210,26 @@ const Advantages = () => {
                 Join the elite community of satisfied bettors today
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <motion.button
+                <motion.a
+                  href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-yellow-400 text-black px-12 py-4 rounded-full text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
                 >
                   Start Winning Now
-                </motion.button>
-                <motion.button
+                </motion.a>
+                <motion.a
+                  href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-transparent border-2 border-yellow-400 text-yellow-400 px-12 py-4 rounded-full text-xl font-bold hover:bg-yellow-400 hover:text-black transition-all duration-300"
                 >
                   Learn More
-                </motion.button>
+                </motion.a>
               </div>
             </div>
           </div>

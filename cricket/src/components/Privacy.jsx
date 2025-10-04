@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 import {
   FaShieldAlt,
   FaUserSecret,
@@ -322,6 +323,7 @@ const Privacy = () => {
           </motion.div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

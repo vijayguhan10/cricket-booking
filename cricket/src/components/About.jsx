@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 import {
   FaGlobe,
   FaUserPlus,
@@ -159,16 +160,20 @@ const About = () => {
               Join thousands of satisfied bettors and experience the thrill of
               premium gaming
             </p>
-            <motion.button
+            <motion.a
+              href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-yellow-400 text-black px-12 py-4 rounded-full text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
+              className="inline-block bg-yellow-400 text-black px-12 py-4 rounded-full text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
             >
               Create Account Now
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>
+      <Footer />
     </div>
   );
 };
