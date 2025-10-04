@@ -116,7 +116,7 @@ const Home = () => {
             className="absolute inset-0"
           >
             <img
-              src="https://maahadevbook.com/wp-content/uploads/2025/07/Hero.webp"
+              src="https://technofaq.org/wp-content/uploads/2019/12/landbased_casino-620x350.jpg"
               alt="JDbooking Book Hero"
               className="w-full h-full object-cover object-center"
             />
@@ -289,9 +289,9 @@ const Home = () => {
                   Your Winning Journey Starts Here
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 leading-relaxed">
-                  JDbooking Book is one of the rising names in the world of online
-                  betting and gaming platforms. Known for its wide range of
-                  offerings, user-friendly interface, and responsive customer
+                  JDbooking Book is one of the rising names in the world of
+                  online betting and gaming platforms. Known for its wide range
+                  of offerings, user-friendly interface, and responsive customer
                   service, it has quickly gained a reputation as India's most
                   trusted betting platform.
                 </p>
