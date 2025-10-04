@@ -5,6 +5,7 @@ import About from './About'
 import Advantages from './Advantages'
 import GeneralSteps from './GeneralSteps'
 import WhyUs from './WhyUs'
+import Faq from './Faq'
 const RenderHome = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const RenderHome = () => {
         <Advantages/>
         <GeneralSteps/>
         <WhyUs/>
+        <Faq/>
     </div>
   )
 }
