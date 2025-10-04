@@ -332,7 +332,7 @@ const Home = () => {
                 <div className="relative group">
                   <motion.img
                     whileHover={{ scale: 1.05 }}
-                    src="https://maahadevbook.com/wp-content/uploads/2025/07/mahadev_book-1.webp"
+                    src="https://JDbook.com/wp-content/uploads/2025/07/JDbook_book-1.webp"
                     alt="JDbooking Book Platform"
                     className="rounded-2xl sm:rounded-3xl shadow-2xl border-4 border-yellow-400/30 group-hover:border-green-500/50 transition-all duration-300 w-full"
                   />

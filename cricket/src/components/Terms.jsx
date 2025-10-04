@@ -141,7 +141,7 @@ const Terms = () => {
       title: "12. Contact Information",
       content: [
         "For questions regarding these Terms and Conditions, please contact us:",
-        "Email: support@maahadevbook.com",
+        "Email: support@JDbook.com",
         "WhatsApp: +91-XXXXXXXXXX",
         "Live Chat: Available 24/7 on our platform",
         "Our support team is available around the clock to assist you.",

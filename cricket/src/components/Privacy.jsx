@@ -91,7 +91,7 @@ const Privacy = () => {
         "Opt-Out: You can unsubscribe from promotional emails and marketing communications at any time.",
         "Restrict Processing: You can request that we limit how we use your personal information.",
         "Withdraw Consent: You may withdraw consent for data processing where we rely on consent as the legal basis.",
-        "To exercise these rights, contact our privacy team at privacy@maahadevbook.com.",
+        "To exercise these rights, contact our privacy team at privacy@JDbook.com.",
       ],
     },
     {
@@ -146,8 +146,8 @@ const Privacy = () => {
       title: "11. Contact Us",
       content: [
         "If you have questions or concerns about this Privacy Policy or our data practices, please contact us:",
-        "Email: privacy@maahadevbook.com",
-        "Support Email: support@maahadevbook.com",
+        "Email: privacy@JDbook.com",
+        "Support Email: support@JDbook.com",
         "WhatsApp: +91-XXXXXXXXXX",
         "Live Chat: Available 24/7 on our platform",
         "Mailing Address: JDbook Privacy Team, [Address]",

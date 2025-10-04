@@ -16,7 +16,7 @@ const About = () => {
       icon: <FaGlobe className="text-5xl sm:text-6xl text-yellow-400" />,
       title: "Visit the Official Website",
       description:
-        "Open your preferred web browser and go to our official website: maahadevbook.com.",
+        "Open your preferred web browser and go to our official website: JDbook.com.",
       stepNumber: "01",
     },
     {

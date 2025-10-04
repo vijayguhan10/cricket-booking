@@ -106,9 +106,7 @@ const Navigation = () => {
                 <FaCrown className="text-yellow-400 text-3xl lg:text-4xl drop-shadow-lg" />
               </motion.div>
               <div>
-                <h1 className="text-xl lg:text-2xl font-extrabold text-yellow-400">
-                  Jdbook
-                </h1>
+               <img src="https://ss.manage63.com/bmk-wl/wl/jd222/img/logo.svg"/>
                 <p className="text-[10px] lg:text-xs text-green-500 font-semibold">
                   Premier Betting Destination
                 </p>

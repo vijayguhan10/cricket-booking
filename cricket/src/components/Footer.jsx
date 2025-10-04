@@ -41,7 +41,7 @@ export default function Footer() {
                 Disclaimer
               </h3>
               <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
-                <span className="font-semibold text-white">Mahadev Book</span>{" "}
+                <span className="font-semibold text-white">JDbook Book</span>{" "}
                 supports{" "}
                 <span className="text-yellow-400 font-semibold">
                   responsible betting
@@ -156,7 +156,7 @@ export default function Footer() {
                   className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  Mahadev Book ID
+                  JDbook Book ID
                 </Link>
               </li>
               <li>
@@ -255,11 +255,11 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/mahadev-app"
+                  to="/JDbook-app"
                   className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  Mahadev Betting App
+                  JDbook Betting App
                 </Link>
               </li>
             </ul>
@@ -302,9 +302,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <div className="text-gray-300 text-xs sm:text-sm">
               © 2025 by{" "}
-              <span className="text-yellow-400 font-semibold">
-                Mahadev Book
-              </span>
+              <span className="text-yellow-400 font-semibold">JDbook Book</span>
               . All Rights Reserved.
             </div>
             <div className="flex items-center gap-2 text-gray-300 text-xs sm:text-sm">
