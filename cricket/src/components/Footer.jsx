@@ -79,7 +79,7 @@ export default function Footer() {
               </motion.div>
               <div>
                 <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-yellow-400 mb-1">
-                  MahadevBook
+                  JDbook
                 </h3>
                 <p className="text-green-500 text-xs sm:text-sm font-semibold">
                   Your Premier Betting Destination
@@ -88,8 +88,8 @@ export default function Footer() {
             </div>
             <p className="text-gray-300 text-xs sm:text-sm leading-relaxed mb-6">
               Welcome to{" "}
-              <span className="text-yellow-400 font-semibold">MahadevBook</span>
-              , your premier destination for an unrivaled online betting
+              <span className="text-yellow-400 font-semibold">JDbook</span>,
+              your premier destination for an unrivaled online betting
               experience in India! Elevate your excitement with our exclusive
               online betting IDs for Cricket, Football, Casino, and more.
             </p>
