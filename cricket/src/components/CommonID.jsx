@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   FaBolt,
   FaShieldAlt,
@@ -15,10 +15,14 @@ import {
   FaWallet,
   FaChartLine,
   FaGamepad,
+  FaQuestionCircle,
+  FaPlus,
+  FaMinus,
 } from "react-icons/fa";
 
 const CommonID = ({ data }) => {
   const [activeTab, setActiveTab] = useState("cricket");
+  const [activeFaqIndex, setActiveFaqIndex] = useState(null);
 
   if (!data) return null;
 
@@ -62,7 +66,7 @@ const CommonID = ({ data }) => {
                 {data.hero.mainTitle.split("via")[0]}
               </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600">
-                via Mahadev Book
+                via Jdbook Book
               </span>
             </h1>
 
@@ -161,7 +165,7 @@ const CommonID = ({ data }) => {
         </div>
       </section>
 
-      {/* Why Choose Mahadev Book */}
+      {/* Why Choose Jdbook Book */}
       <section className="relative py-16 sm:py-20 md:py-24 bg-black">
         <div className="absolute inset-0">
           <div className="absolute top-20 right-20 w-96 h-96 bg-yellow-400/5 rounded-full blur-3xl"></div>
@@ -176,7 +180,7 @@ const CommonID = ({ data }) => {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4 sm:mb-6">
-              {data.whyChooseMahadevBook.title.split("for")[0]}
+              {data.whyChooseJDbook.title.split("for")[0]}
               <span className="text-yellow-400">
                 for Your Online Betting ID?
               </span>
@@ -186,7 +190,7 @@ const CommonID = ({ data }) => {
 
           {/* Reasons Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
-            {data.whyChooseMahadevBook.reasons.map((reason, index) => {
+            {data.whyChooseJDbook.reasons.map((reason, index) => {
               const icons = [
                 FaRocket,
                 FaShieldAlt,
@@ -235,7 +239,7 @@ const CommonID = ({ data }) => {
             className="text-center"
           >
             <p className="text-sm sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto">
-              {data.whyChooseMahadevBook.closingText}
+              {data.whyChooseJDbook.closingText}
             </p>
           </motion.div>
         </div>
@@ -468,7 +472,7 @@ const CommonID = ({ data }) => {
             <FaMobileAlt className="text-5xl sm:text-6xl md:text-7xl text-green-500 mx-auto mb-6" />
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4 sm:mb-6">
               {data.mobileApp.title.split("with")[0]}
-              <span className="text-yellow-400">with the Mahadev Book App</span>
+              <span className="text-yellow-400">with the Jdbook Book App</span>
             </h2>
             <div className="h-1 w-24 sm:w-32 bg-green-500 mx-auto mb-6 sm:mb-8"></div>
             <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl mx-auto">
@@ -499,7 +503,7 @@ const CommonID = ({ data }) => {
           {/* Why Choose List */}
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl sm:text-3xl font-bold text-white text-center mb-8 sm:mb-12">
-              Why Choose <span className="text-green-500">Mahadev Book</span>?
+              Why Choose <span className="text-green-500">Jdbook Book</span>?
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               {data.mobileApp.whyChoose.map((reason, index) => (
@@ -735,6 +739,240 @@ const CommonID = ({ data }) => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      {data.faq && (
+        <section className="relative py-16 sm:py-20 md:py-24 bg-black">
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-20 w-96 h-96 bg-green-500/5 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-20 right-20 w-96 h-96 bg-yellow-400/5 rounded-full blur-3xl"></div>
+          </div>
+
+          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
+            {/* FAQ Header */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="text-center mb-12 sm:mb-16 md:mb-20"
+            >
+              <div className="flex items-center justify-center mb-4 sm:mb-6">
+                <motion.div
+                  animate={{
+                    scale: [1, 1.1, 1],
+                    rotate: [0, 5, -5, 0],
+                  }}
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    repeatDelay: 1,
+                  }}
+                >
+                  <FaQuestionCircle className="text-green-500 text-4xl sm:text-5xl md:text-6xl drop-shadow-lg" />
+                </motion.div>
+              </div>
+              <h2 className="text-3xl sm:text-5xl md:text-7xl font-extrabold text-white mb-4 sm:mb-6">
+                {data.faq.title.split("about")[0]}
+                <span className="text-yellow-400">
+                  about {data.faq.title.split("about")[1]}
+                </span>
+              </h2>
+              <div className="h-1 w-24 sm:w-40 bg-green-500 mx-auto mb-4 sm:mb-6"></div>
+              <p className="text-sm sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto px-4">
+                {data.faq.description}
+              </p>
+            </motion.div>
+
+            {/* CTA Banner */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="mb-12 sm:mb-16"
+            >
+              <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl border-2 border-yellow-400/50 p-6 sm:p-10 text-center">
+                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 via-yellow-400/5 to-yellow-400/10"></div>
+                <div className="relative">
+                  <h3 className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
+                    Get Online Cricket ID
+                  </h3>
+                  <motion.a
+                    href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="inline-block bg-yellow-400 text-black px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
+                  >
+                    Get Online ID
+                  </motion.a>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* FAQ Accordion */}
+            <div className="max-w-4xl mx-auto mb-12 sm:mb-16">
+              <div className="space-y-4 sm:space-y-6">
+                {data.faq.questions.map((faq, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.1, duration: 0.5 }}
+                    className="group"
+                  >
+                    <div
+                      className={`bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-xl rounded-2xl border-2 transition-all duration-300 overflow-hidden ${
+                        activeFaqIndex === index
+                          ? "border-green-500/60 shadow-xl shadow-green-500/20"
+                          : "border-yellow-400/30 hover:border-green-500/50"
+                      }`}
+                    >
+                      {/* Question */}
+                      <button
+                        onClick={() =>
+                          setActiveFaqIndex(
+                            activeFaqIndex === index ? null : index
+                          )
+                        }
+                        className="w-full text-left p-5 sm:p-6 md:p-8 flex items-center justify-between gap-4 group-hover:bg-green-500/5 transition-colors duration-300"
+                      >
+                        <div className="flex items-start gap-3 sm:gap-4 flex-1">
+                          <div
+                            className={`flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center font-bold text-sm sm:text-base transition-colors duration-300 ${
+                              activeFaqIndex === index
+                                ? "bg-green-500 text-white shadow-lg shadow-green-500/50"
+                                : "bg-green-500/20 text-green-500"
+                            }`}
+                          >
+                            {String(index + 1).padStart(2, "0")}
+                          </div>
+                          <h3
+                            className={`text-base sm:text-xl md:text-2xl font-bold transition-colors duration-300 ${
+                              activeFaqIndex === index
+                                ? "text-yellow-400"
+                                : "text-white group-hover:text-yellow-400"
+                            }`}
+                          >
+                            {faq.question}
+                          </h3>
+                        </div>
+                        <motion.div
+                          animate={{
+                            rotate: activeFaqIndex === index ? 180 : 0,
+                          }}
+                          transition={{ duration: 0.3 }}
+                          className="flex-shrink-0"
+                        >
+                          {activeFaqIndex === index ? (
+                            <FaMinus className="text-green-500 text-xl sm:text-2xl drop-shadow-lg" />
+                          ) : (
+                            <FaPlus className="text-green-500 text-xl sm:text-2xl" />
+                          )}
+                        </motion.div>
+                      </button>
+
+                      {/* Answer */}
+                      <AnimatePresence>
+                        {activeFaqIndex === index && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="px-5 sm:px-6 md:px-8 pb-5 sm:pb-6 md:pb-8 pl-14 sm:pl-20 md:pl-24">
+                              <div className="border-l-4 border-green-500/50 pl-4 sm:pl-6">
+                                <p className="text-gray-300 text-xs sm:text-base md:text-lg leading-relaxed">
+                                  {faq.answer}
+                                </p>
+                              </div>
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+
+            {/* Disclaimer Section */}
+            {data.disclaimer && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8 }}
+                className="max-w-4xl mx-auto"
+              >
+                <div className="bg-gradient-to-br from-yellow-400/10 to-yellow-600/5 backdrop-blur-xl rounded-2xl sm:rounded-3xl border-2 border-yellow-400/40 p-6 sm:p-8 md:p-10">
+                  <div className="flex items-start gap-4 sm:gap-6">
+                    <motion.div
+                      animate={{
+                        scale: [1, 1.05, 1],
+                      }}
+                      transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                      }}
+                    >
+                      <FaShieldAlt className="text-green-500 text-3xl sm:text-4xl md:text-5xl flex-shrink-0 mt-1 drop-shadow-lg" />
+                    </motion.div>
+                    <div>
+                      <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4">
+                        Disclaimer
+                      </h3>
+                      <p className="text-gray-300 text-xs sm:text-base md:text-lg leading-relaxed">
+                        {data.disclaimer}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            )}
+
+            {/* Bottom CTA */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+              className="text-center mt-12 sm:mt-16"
+            >
+              <p className="text-sm sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8">
+                Still have questions? Our support team is here to help!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+                <motion.a
+                  href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-yellow-400 text-black px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
+                >
+                  Contact Support
+                </motion.a>
+                <motion.a
+                  href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-transparent border-2 border-yellow-400 text-yellow-400 px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-xl font-bold hover:bg-yellow-400 hover:text-black transition-all duration-300"
+                >
+                  Live Chat
+                </motion.a>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+      )}
+
       {/* Final CTA */}
       <section className="relative py-16 sm:py-20 md:py-28 bg-gradient-to-b from-gray-900 to-black">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -754,29 +992,38 @@ const CommonID = ({ data }) => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-8 sm:mb-12">
-              <motion.button
+              <motion.a
+                href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-black px-10 sm:px-16 py-4 sm:py-5 rounded-full text-base sm:text-xl font-bold shadow-lg hover:shadow-yellow-400/50 transition-all duration-300"
               >
                 {data.cta.primary.text}
-              </motion.button>
-              <motion.button
+              </motion.a>
+              <motion.a
+                href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 sm:px-16 py-4 sm:py-5 rounded-full text-base sm:text-xl font-bold shadow-lg hover:shadow-green-500/50 transition-all duration-300"
               >
                 {data.cta.secondary.text}
-              </motion.button>
+              </motion.a>
             </div>
 
-            <motion.button
+            <motion.a
+              href="https://wa.me/447861853226?text=Hi%20I%20need%20booking%20Id"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-transparent border-2 border-yellow-400 text-yellow-400 px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-lg font-bold hover:bg-yellow-400 hover:text-black transition-all duration-300"
+              className="inline-block bg-transparent border-2 border-yellow-400 text-yellow-400 px-8 sm:px-12 py-3 sm:py-4 rounded-full text-sm sm:text-lg font-bold hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >
               {data.cta.support.text}
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </section>

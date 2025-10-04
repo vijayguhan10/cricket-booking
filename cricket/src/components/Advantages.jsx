@@ -15,7 +15,7 @@ const Advantages = () => {
       icon: <FaTrophy className="text-6xl sm:text-8xl text-yellow-400" />,
       title: "Diverse Sports Betting Options",
       description:
-        "At Mahadev Book, we know that sports are a big part of life for many people, and that's why we've created a platform that offers an extensive range of sports betting options. From cricket to basketball, football to tennis, we bring you a variety of games that allow you to bet and win.",
+        "At Jdbook Book, we know that sports are a big part of life for many people, and that's why we've created a platform that offers an extensive range of sports betting options. From cricket to basketball, football to tennis, we bring you a variety of games that allow you to bet and win.",
       highlights: [
         "Cricket, Football, Tennis & More",
         "Online Slots & Table Games",
@@ -49,7 +49,7 @@ const Advantages = () => {
     },
     {
       icon: <FaAward className="text-6xl sm:text-8xl text-yellow-400" />,
-      title: "Mahadev Book Verdict",
+      title: "Jdbook Book Verdict",
       description:
         "Our platform stands as the top choice for anyone looking for a reliable and secure betting experience. With diverse betting options, excellent security, and a dedication to continuous improvement, we aim to provide the best possible experience for our users.",
       highlights: [
@@ -101,7 +101,7 @@ const Advantages = () => {
             <div className="h-1 w-16 bg-yellow-400 ml-4"></div>
           </div>
           <h3 className="text-3xl sm:text-5xl font-bold text-yellow-400 mb-6 mt-8">
-            Advantages of Mahadev Book
+            Advantages of Jdbook Book
           </h3>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
             Discover why thousands choose us for their betting journey

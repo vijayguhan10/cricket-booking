@@ -7,9 +7,9 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "How to create a betting ID in Mahadev Book?",
+      question: "How to create a betting ID in Jdbook Book?",
       answer:
-        'Creating your Mahadev Book ID is quick and easy. Just head to our website, click the "Sign Up" button, and fill out the registration form with your basic details. Follow the on-screen instructions, accept the terms and conditions, and your account will be ready in no time.',
+        'Creating your Jdbook Book ID is quick and easy. Just head to our website, click the "Sign Up" button, and fill out the registration form with your basic details. Follow the on-screen instructions, accept the terms and conditions, and your account will be ready in no time.',
     },
     {
       question: "What is the minimum amount required for betting?",
@@ -17,39 +17,39 @@ const Faq = () => {
         "The minimum betting amount varies depending on the game and market you choose. Generally, you can start betting with as little as ₹100. Please check the specific game or market for exact minimum bet requirements.",
     },
     {
-      question: "Is Mahadev Book a safe gaming and betting platform?",
+      question: "Is Jdbook Book a safe gaming and betting platform?",
       answer:
-        "Yes, Mahadev Book is a secure and trusted platform. We use advanced encryption technology to protect your personal and financial information. All transactions are processed through secure payment gateways, and we adhere to strict security protocols to ensure a safe betting environment.",
+        "Yes, Jdbook Book is a secure and trusted platform. We use advanced encryption technology to protect your personal and financial information. All transactions are processed through secure payment gateways, and we adhere to strict security protocols to ensure a safe betting environment.",
     },
     {
-      question: "What kind of bets can I place on Mahadev Book?",
+      question: "What kind of bets can I place on Jdbook Book?",
       answer:
-        "Mahadev Book offers a wide variety of betting options including sports betting (cricket, football, tennis, basketball), live casino games (Teen Patti, Blackjack, Roulette), online slots, and virtual sports. You can place pre-match bets, live in-play bets, and special event bets.",
+        "Jdbook Book offers a wide variety of betting options including sports betting (cricket, football, tennis, basketball), live casino games (Teen Patti, Blackjack, Roulette), online slots, and virtual sports. You can place pre-match bets, live in-play bets, and special event bets.",
     },
     {
-      question: "How does Mahadev's book work?",
+      question: "How does Jdbook's book work?",
       answer:
-        "Mahadev Book is an online betting platform where you can register an account, deposit funds, browse available betting markets, place your bets, and withdraw your winnings. The platform provides real-time odds, live updates, and instant transaction processing for a seamless betting experience.",
+        "Jdbook Book is an online betting platform where you can register an account, deposit funds, browse available betting markets, place your bets, and withdraw your winnings. The platform provides real-time odds, live updates, and instant transaction processing for a seamless betting experience.",
     },
     {
-      question: "Is Mahadev's book legal?",
+      question: "Is Jdbook's book legal?",
       answer:
-        "Mahadev Book operates in compliance with applicable gaming regulations and international betting standards. We recommend checking your local laws regarding online betting and gambling. Users must be 18+ years old to participate.",
+        "Jdbook Book operates in compliance with applicable gaming regulations and international betting standards. We recommend checking your local laws regarding online betting and gambling. Users must be 18+ years old to participate.",
     },
     {
-      question: "What is Mahadev's book online?",
+      question: "What is Jdbook's book online?",
       answer:
-        "Mahadev Book Online is a comprehensive betting platform that offers sports betting, live casino games, and online gaming services. It provides users with a secure, user-friendly interface to place bets on various sports events and casino games from the comfort of their devices.",
+        "Jdbook Book Online is a comprehensive betting platform that offers sports betting, live casino games, and online gaming services. It provides users with a secure, user-friendly interface to place bets on various sports events and casino games from the comfort of their devices.",
     },
     {
-      question: "How do I contact Mahadev bet?",
+      question: "How do I contact Jdbook bet?",
       answer:
-        "You can contact Mahadev Book through multiple channels: 24/7 live chat support on our website, WhatsApp support, Telegram support, email support, or through our customer service helpline. Our dedicated support team is always ready to assist you with any queries.",
+        "You can contact Jdbook Book through multiple channels: 24/7 live chat support on our website, WhatsApp support, Telegram support, email support, or through our customer service helpline. Our dedicated support team is always ready to assist you with any queries.",
     },
     {
-      question: "What can I bet on at Mahadev Online?",
+      question: "What can I bet on at Jdbook Online?",
       answer:
-        "At Mahadev Online, you can bet on a wide range of options including cricket (IPL, T20, ODI, Test matches), football, tennis, basketball, live casino games (Teen Patti, Andar Bahar, Roulette, Blackjack), online slots, card games, and virtual sports. New betting markets are added regularly.",
+        "At Jdbook Online, you can bet on a wide range of options including cricket (IPL, T20, ODI, Test matches), football, tennis, basketball, live casino games (Teen Patti, Andar Bahar, Roulette, Blackjack), online slots, card games, and virtual sports. New betting markets are added regularly.",
     },
   ];
 
@@ -235,7 +235,7 @@ const Faq = () => {
                   Disclaimer
                 </h3>
                 <p className="text-gray-300 text-xs sm:text-base md:text-lg leading-relaxed">
-                  Mahadev Book supports{" "}
+                  Jdbook Book supports{" "}
                   <span className="text-yellow-400 font-semibold">
                     responsible betting
                   </span>

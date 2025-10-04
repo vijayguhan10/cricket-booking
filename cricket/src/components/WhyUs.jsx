@@ -52,19 +52,19 @@ const WhyUs = () => {
     {
       name: "Sandeep K.",
       rating: 4,
-      text: "MahadevBook is decent overall. I like the interface and live match betting, but sometimes the site lags during peak hours. Still, the variety of games and betting options keeps me coming back. Hope they improve the speed soon.",
+      text: "JDbook is decent overall. I like the interface and live match betting, but sometimes the site lags during peak hours. Still, the variety of games and betting options keeps me coming back. Hope they improve the speed soon.",
       avatar: "SK",
     },
     {
       name: "Vikram S.",
       rating: 5,
-      text: "I started using MahadevBook on a friend's recommendation and it didn't disappoint. The platform feels secure, and I love how transparent they are with betting limits and rules. Customer service is also pretty quick to respond.",
+      text: "I started using JDbook on a friend's recommendation and it didn't disappoint. The platform feels secure, and I love how transparent they are with betting limits and rules. Customer service is also pretty quick to respond.",
       avatar: "VS",
     },
     {
       name: "Priya T.",
       rating: 4,
-      text: "I mostly use MahadevBook for cricket and football betting. The live odds are accurate and updated in real time, which makes betting much more exciting. I gave it 4 stars only because I wish there were more promotional offers.",
+      text: "I mostly use JDbook for cricket and football betting. The live odds are accurate and updated in real time, which makes betting much more exciting. I gave it 4 stars only because I wish there were more promotional offers.",
       avatar: "PT",
     },
     {
@@ -88,7 +88,7 @@ const WhyUs = () => {
     {
       name: "Meera S.",
       rating: 5,
-      text: "I've been using MahadevBook for 6 months now and it's been fantastic. The interface is clean, easy to navigate, and I've never had any issues with withdrawals. Highly recommend for anyone serious about betting.",
+      text: "I've been using JDbook for 6 months now and it's been fantastic. The interface is clean, easy to navigate, and I've never had any issues with withdrawals. Highly recommend for anyone serious about betting.",
       avatar: "MS",
     },
   ];
@@ -184,7 +184,7 @@ const WhyUs = () => {
           </h2>
           <div className="h-1 w-24 sm:w-40 bg-yellow-400 mx-auto mb-4 sm:mb-6"></div>
           <h3 className="text-lg sm:text-2xl md:text-4xl font-bold text-white mb-6 sm:mb-8 px-4">
-            Why Is Mahadev Book The Best Option For Online Betting ID?
+            Why Is Jdbook Book The Best Option For Online Betting ID?
           </h3>
         </motion.div>
 
@@ -241,7 +241,7 @@ const WhyUs = () => {
                 casino gaming,
                 <span className="text-yellow-400 font-bold">
                   {" "}
-                  Mahadev Book
+                  Jdbook Book
                 </span>{" "}
                 is your perfect choice for a seamless experience.
               </p>
@@ -374,7 +374,7 @@ const WhyUs = () => {
 
           <div className="max-w-5xl mx-auto mb-8 sm:mb-12">
             <p className="text-gray-300 text-xs sm:text-base md:text-lg leading-relaxed text-center mb-4 sm:mb-6 px-4">
-              At Mahadev Book, we understand that secure and hassle-free
+              At Jdbook Book, we understand that secure and hassle-free
               financial transactions are the backbone of a great online betting
               experience. That's why we've built a platform designed to make
               deposits and withdrawals as smooth and reliable as possible.

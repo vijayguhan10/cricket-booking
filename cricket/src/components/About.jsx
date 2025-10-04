@@ -37,7 +37,7 @@ const About = () => {
       icon: <FaSignInAlt className="text-5xl sm:text-6xl text-yellow-400" />,
       title: "Log In to Your Account",
       description:
-        "After registering, use your new login credentials (ID and password) to access your Mahadev Book account.",
+        "After registering, use your new login credentials (ID and password) to access your Jdbook Book account.",
       stepNumber: "04",
     },
     {
@@ -85,7 +85,7 @@ const About = () => {
             <span className="text-yellow-400">Register Your Account</span>
           </h2>
           <p className="text-xl sm:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Create Your Mahadev Betting Account in Minutes Online
+            Create Your Jdbook Betting Account in Minutes Online
           </p>
           <div className="mt-6 h-1 w-32 bg-yellow-400 mx-auto"></div>
         </motion.div>
@@ -99,7 +99,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            At Mahadev Book, we prioritize a smooth and user-friendly
+            At Jdbook Book, we prioritize a smooth and user-friendly
             registration experience. Just follow these straightforward steps to
             get started on your exciting betting journey:
           </p>
