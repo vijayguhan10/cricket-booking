@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Footer from "./Footer";
 import {
   FaGlobe,
   FaUserPlus,
@@ -173,7 +172,6 @@ const About = () => {
           </div>
         </motion.div>
       </div>
-      <Footer />
     </div>
   );
 };
