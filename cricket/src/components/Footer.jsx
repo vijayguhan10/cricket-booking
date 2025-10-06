@@ -218,6 +218,61 @@ export default function Footer() {
                   Jd222.world
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://lordsexch.now"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
+                  lordsexch.now
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://silverexch.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
+                  Silverexch.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://lotus7book.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
+                  Lotus7book.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://tiger365.pro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
+                  Tiger365.pro
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://taj777.now"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
+                  Taj777.now
+                </a>
+              </li>
               {/* Removed IPL Betting ID link per request */}
               {/* Removed JDbook-specific ID links per request */}
               {/* Removed JDbook-specific ID links per request */}
