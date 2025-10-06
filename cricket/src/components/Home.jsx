@@ -171,7 +171,7 @@ const Home = () => {
             className="text-center mb-12 sm:mb-16 md:mb-20"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-green-500 to-yellow-400 mb-4 sm:mb-6">
-              Welcome to JDbookBook
+              Welcome to JDbook
             </h2>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed px-4">
               Your premier destination for an unrivaled online betting
@@ -247,7 +247,7 @@ const Home = () => {
               viewport={{ once: true }}
               className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center text-white mb-8 sm:mb-12"
             >
-              Why Choose <span className="text-yellow-400">JDbookBook</span>?
+              Why Choose <span className="text-yellow-400">JDbook</span>?
             </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
               {benefits.map((benefit, index) => (
@@ -356,8 +356,7 @@ const Home = () => {
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
               Join thousands of satisfied users and start your winning journey
-              today with JDbookBook - India's most trusted online betting
-              platform.
+              today with JDbook - India's most trusted online betting platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
