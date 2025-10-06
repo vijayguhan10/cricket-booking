@@ -117,7 +117,7 @@ const Home = () => {
           >
             <img
               src="https://technofaq.org/wp-content/uploads/2019/12/landbased_casino-620x350.jpg"
-              alt="JDbooking Book Hero"
+              alt="JDbook Book Hero"
               className="w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black"></div>
@@ -131,7 +131,7 @@ const Home = () => {
               transition={{ delay: 0.5, duration: 1 }}
             >
               <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-green-500 to-yellow-400 mb-4 drop-shadow-2xl">
-                JDbooking Book
+                JDbook Book
               </h1>
               <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-white mb-6 font-bold drop-shadow-lg">
                 India's Most Trusted Online Betting Platform
@@ -171,7 +171,7 @@ const Home = () => {
             className="text-center mb-12 sm:mb-16 md:mb-20"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-green-500 to-yellow-400 mb-4 sm:mb-6">
-              Welcome to JDbookingBook
+              Welcome to JDbookBook
             </h2>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed px-4">
               Your premier destination for an unrivaled online betting
@@ -247,7 +247,7 @@ const Home = () => {
               viewport={{ once: true }}
               className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center text-white mb-8 sm:mb-12"
             >
-              Why Choose <span className="text-yellow-400">JDbookingBook</span>?
+              Why Choose <span className="text-yellow-400">JDbookBook</span>?
             </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
               {benefits.map((benefit, index) => (
@@ -289,9 +289,9 @@ const Home = () => {
                   Your Winning Journey Starts Here
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 leading-relaxed">
-                  JDbooking Book is one of the rising names in the world of
-                  online betting and gaming platforms. Known for its wide range
-                  of offerings, user-friendly interface, and responsive customer
+                  JDbook Book is one of the rising names in the world of online
+                  betting and gaming platforms. Known for its wide range of
+                  offerings, user-friendly interface, and responsive customer
                   service, it has quickly gained a reputation as India's most
                   trusted betting platform.
                 </p>
@@ -333,7 +333,7 @@ const Home = () => {
                   <motion.img
                     whileHover={{ scale: 1.05 }}
                     src="https://maahadevbook.com/wp-content/uploads/2025/07/mahadev_book-1.webp"
-                    alt="JDbooking Book Platform"
+                    alt="JDbook Book Platform"
                     className="rounded-2xl sm:rounded-3xl shadow-2xl border-4 border-yellow-400/30 group-hover:border-green-500/50 transition-all duration-300 w-full"
                   />
                   <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 bg-gradient-to-r from-yellow-400 to-green-500 text-black px-3 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg animate-pulse">
@@ -356,7 +356,7 @@ const Home = () => {
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
               Join thousands of satisfied users and start your winning journey
-              today with JDbookingBook - India's most trusted online betting
+              today with JDbookBook - India's most trusted online betting
               platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -62,56 +62,7 @@ const GeneralSteps = () => {
     },
   ];
 
-  const platforms = [
-    {
-      name: "Cricbuzz",
-      description:
-        "JDbook offers users access to Cricbuzz IDs, providing seamless entry to cricket betting activities on the well-known platform. Stay updated with live match data, expert insights, and favorable betting odds across IPL, T20s, ODIs, and Test matches.",
-      icon: <FaCriticalRole className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "11xplay",
-      description:
-        "With an 11xPlay ID from JDbook, you can access exclusive betting features on cricket, football, and tennis. Enjoy premium options, competitive odds, and special promotions, all designed for a seamless betting experience.",
-      icon: <FaTrophy className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "Lotus365",
-      description:
-        "Lotus365 is recognized by users as a reliable and secure platform for betting, ensuring a smooth and safe experience. Access various sports betting options, enjoy live casino features, and take advantage of competitive odds.",
-      icon: <FaShieldAlt className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "Gold365",
-      description:
-        "By joining Gold365 through JDbook, users unlock access to premium sports betting features and real-time casino games. Enjoy superior services designed for enhanced betting opportunities with exciting rewards and daily promotions.",
-      icon: <FaTrophy className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "Laser247",
-      description:
-        "JDbook offers users exclusive access to the renowned betting platform, Laser247. Explore a wide range of betting options, from cricket matches to casino games, while enjoying enticing bonus offers.",
-      icon: <FaDice className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "IPL Betting ID",
-      description:
-        "Cricket enthusiasts looking to bet on IPL 2025 matches can easily obtain an exclusive IPL Betting ID through JDbook. This platform offers top-tier betting odds, live streams of every IPL game, and expert betting tips.",
-      icon: <FaCriticalRole className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "Online Cricket ID",
-      description:
-        "By getting an Online Cricket ID from JDbook, you can place bets on a wide variety of cricket tournaments, including the IPL, BBL, PSL, and the T20 World Cup.",
-      icon: <FaCriticalRole className="text-4xl text-yellow-400" />,
-    },
-    {
-      name: "Online Betting ID",
-      description:
-        "JDbook offers a hassle-free and secure way for customers to engage in online betting through its Online Betting ID service. Access betting on popular sports like cricket, football, kabaddi, and many others.",
-      icon: <FaShieldAlt className="text-4xl text-yellow-400" />,
-    },
-  ];
+  
 
   return (
     <div className="min-h-screen bg-black relative overflow-hidden py-16 sm:py-24">
@@ -276,39 +227,6 @@ const GeneralSteps = () => {
             Your Ultimate Betting Experience Awaits!
           </p>
         </motion.div>
-
-        {/* Platforms Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {platforms.map((platform, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.6 }}
-              className="group"
-            >
-              <div className="border-l-4 border-yellow-400 pl-6 hover:border-yellow-300 transition-colors">
-                <div className="flex items-center gap-4 mb-4">
-                  <motion.div
-                    whileHover={{ rotate: 360, scale: 1.2 }}
-                    transition={{ duration: 0.5 }}
-                  >
-                    {platform.icon}
-                  </motion.div>
-                  <h3 className="text-2xl sm:text-3xl font-bold text-white group-hover:text-yellow-400 transition-colors">
-                    {platform.name}
-                  </h3>
-                </div>
-                <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                  {platform.description}
-                </p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* Final CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
