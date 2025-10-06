@@ -5,24 +5,14 @@ import About from "../components/About";
 import CommonID from "../components/CommonID";
 import Terms from "../components/Terms";
 import Privacy from "../components/Privacy";
-import onlineBookingData from "../data/OnlineBookingId.json";
-import onlincricketData from "../data/OnlineCricketId.json";
-import Iplbetting from "../data/IplbettingID.json";
+// Removed data-driven ID pages per request
 
 const Initialrouter = () => {
   return (
     <Routes>
       <Route path="/" element={<RenderHome />} />
       <Route path="/about" element={<About />} />
-      <Route
-        path="/onlinebooking"
-        element={<CommonID data={onlineBookingData} />}
-      />
-      <Route
-        path="/onlincricketbooking"
-        element={<CommonID data={onlincricketData} />}
-      />
-      <Route path="/iplbetting" element={<CommonID data={Iplbetting} />} />
+      {/* Removed ID pages routes per request */}
       <Route path="/terms" element={<Terms />} />
       <Route path="/privacy" element={<Privacy />} />
     </Routes>

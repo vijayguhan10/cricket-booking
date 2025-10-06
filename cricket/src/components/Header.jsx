@@ -38,7 +38,6 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
-    { name: "JDbook ID", path: "/onlinebooking" },
     { name: "Contact Us", path: "/contact" },
     { name: "Privacy Policy", path: "/privacy" },
     { name: "Terms & Conditions", path: "/terms" },
@@ -48,10 +47,7 @@ const Navigation = () => {
   const bettingLinks = [
     { name: "Jd222.club", url: "https://jd222.club" },
     { name: "Jd222.world", url: "https://jd222.world" },
-    { name: "IPL Betting ID", path: "/iplbetting" },
-    { name: "Online Betting ID", path: "/onlinebooking" },
-    { name: "Online Cricket ID", path: "/onlincricketbooking" },
-    { name: "Jdbook Betting App", path: "/Jdbook-app" },
+    // Removed direct routes for specific ID pages per request
   ];
 
   return (

@@ -150,15 +150,7 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/onlinebooking"
-                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
-                >
-                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  JDbook ID
-                </Link>
-              </li>
+              {/* Removed JDbook ID link per request */}
               <li>
                 <Link
                   to="/contact"
@@ -226,42 +218,9 @@ export default function Footer() {
                   Jd222.world
                 </a>
               </li>
-              <li>
-                <Link
-                  to="/iplbetting"
-                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
-                >
-                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  IPL Betting ID
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/onlinebooking"
-                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
-                >
-                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  Online Betting ID
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/onlincricketbooking"
-                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
-                >
-                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  Online Cricket ID
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/JDbook-app"
-                  className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
-                >
-                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  JDbook Betting App
-                </Link>
-              </li>
+              {/* Removed IPL Betting ID link per request */}
+              {/* Removed JDbook-specific ID links per request */}
+              {/* Removed JDbook-specific ID links per request */}
             </ul>
           </div>
 
