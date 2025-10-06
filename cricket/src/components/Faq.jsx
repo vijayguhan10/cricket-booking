@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaPlus, FaMinus, FaQuestionCircle, FaShieldAlt } from "react-icons/fa";
-import Footer from "./Footer";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -284,7 +283,6 @@ const Faq = () => {
           </div>
         </motion.div>
       </div>
-      <Footer />
     </div>
   );
 };

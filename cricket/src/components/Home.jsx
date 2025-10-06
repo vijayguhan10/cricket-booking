@@ -117,7 +117,7 @@ const Home = () => {
           >
             <img
               src="https://technofaq.org/wp-content/uploads/2019/12/landbased_casino-620x350.jpg"
-              alt="JDbook Book Hero"
+              alt="JDbook Hero"
               className="w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black"></div>
@@ -131,7 +131,7 @@ const Home = () => {
               transition={{ delay: 0.5, duration: 1 }}
             >
               <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-green-500 to-yellow-400 mb-4 drop-shadow-2xl">
-                JDbook Book
+                JDbook
               </h1>
               <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-white mb-6 font-bold drop-shadow-lg">
                 India's Most Trusted Online Betting Platform
@@ -289,7 +289,7 @@ const Home = () => {
                   Your Winning Journey Starts Here
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 leading-relaxed">
-                  JDbook Book is one of the rising names in the world of online
+                  JDbook is one of the rising names in the world of online
                   betting and gaming platforms. Known for its wide range of
                   offerings, user-friendly interface, and responsive customer
                   service, it has quickly gained a reputation as India's most
@@ -333,7 +333,7 @@ const Home = () => {
                   <motion.img
                     whileHover={{ scale: 1.05 }}
                     src="https://maahadevbook.com/wp-content/uploads/2025/07/mahadev_book-1.webp"
-                    alt="JDbook Book Platform"
+                    alt="JDbook Platform"
                     className="rounded-2xl sm:rounded-3xl shadow-2xl border-4 border-yellow-400/30 group-hover:border-green-500/50 transition-all duration-300 w-full"
                   />
                   <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 bg-gradient-to-r from-yellow-400 to-green-500 text-black px-3 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg animate-pulse">
