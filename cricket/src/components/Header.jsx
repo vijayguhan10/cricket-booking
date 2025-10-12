@@ -48,7 +48,7 @@ const Navigation = () => {
     { name: "Jd222.club", url: "https://jd222.club" },
     { name: "Jd222.world", url: "https://jd222.world" },
     { name: "lordsexch.now", url: "https://lordsexch.now" },
-    { name: "Silverexch.com", url: "https://silverexch.com" },
+    { name: "D247.com", url: "https://D247.com" },
     { name: "Lotus7book.com", url: "https://lotus7book.com" },
     { name: "Tiger365.pro", url: "https://tiger365.pro" },
     { name: "Taj777.now", url: "https://taj777.now" },
