@@ -5,7 +5,6 @@ import About from "../components/About";
 import CommonID from "../components/CommonID";
 import Terms from "../components/Terms";
 import Privacy from "../components/Privacy";
-// Removed data-driven ID pages per request
 
 const Initialrouter = () => {
   return (
