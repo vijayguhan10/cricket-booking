@@ -231,13 +231,13 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://silverexch.com"
+                  href="https://D247.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-yellow-400 transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full group-hover:w-3 transition-all"></span>
-                  Silverexch.com
+                 D247.com
                 </a>
               </li>
               <li>
